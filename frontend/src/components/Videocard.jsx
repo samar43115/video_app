@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Videocard = ({video}) => {
   return (
     <Link
-      to={`/video/${video.videoUrl}`}
+      to={`/video/${video.id}`}
       className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition duration-300"
     >
       <img
