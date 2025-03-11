@@ -7,7 +7,7 @@ const Home = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4444/api/videos")
+      .get("https://video-app-2oeo.onrender.com/api/videos")
       .then((response) => {
         setVideos(response.data)
         console.log(response.data)
